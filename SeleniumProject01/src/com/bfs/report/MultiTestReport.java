@@ -26,12 +26,12 @@ public class MultiTestReport {
 	
 	@BeforeTest
 	public void beforeTest(){
-		report = new ExtentReports("C:\\Storage\\Report\\LearnAutomation.html",true);
+		report = new ExtentReports("C:\\BFS\\Report\\Report71.html",true);
 	}
 	
 	@AfterTest
 	public void afterTest(){
-		driver.get("C:\\Storage\\Report\\LearnAutomation.html");
+		driver.get("C:\\BFS\\Report\\Report71.html");
 	}
 	
 	
@@ -60,6 +60,7 @@ public class MultiTestReport {
 		String title = driver.getTitle();
 		Assert.assertTrue(true);
 		logger.log(LogStatus.PASS, "Title verified");
+	
 	}
 
 
