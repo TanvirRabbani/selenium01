@@ -23,7 +23,7 @@ public class Report {
 
 	@Test
 	public void verifyBlogTitle() {
-		report = new ExtentReports("C:\\Storage\\Report\\LearnAutomation.html");
+		report = new ExtentReports("C:\\BFS\\Report\\Report71.html");
 		logger = report.startTest("VerifyBlogTitle");
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
